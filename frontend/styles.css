@@ -1,0 +1,96 @@
+/* Center everything on the page */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #6A11CB, #2575FC);
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    color: white;
+}
+
+/* Title */
+h1 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* Control panel container */
+.controls {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 20px;
+    border-radius: 15px;
+    backdrop-filter: blur(8px);
+    display: flex;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+/* Inputs, selects, and button styling */
+.controls input,
+.controls select,
+.controls button {
+    padding: 10px 14px;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+}
+
+/* Inputs/selects */
+.controls input,
+.controls select {
+    background: rgba(255, 255, 255, 0.85);
+}
+
+/* Button */
+.controls button {
+    background: #0d6efd;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.controls button:hover {
+    background: #084298;
+}
+
+/* Competition results container */
+#results {
+    width: 70%;
+    max-width: 800px;
+    margin-top: 10px;
+}
+
+/* Each competition card */
+.competition-card {
+    background: white;
+    color: #333;
+    padding: 18px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    transition: transform 0.2s;
+}
+
+.competition-card:hover {
+    transform: translateY(-4px);
+}
+
+/* Title inside card */
+.comp-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+/* Date text */
+.comp-date {
+    font-size: 14px;
+    color: #666;
+}

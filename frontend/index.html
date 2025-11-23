@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Competition Finder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1>Competition Arena</h1>
+
+<div class="controls">
+    <input id="search" placeholder="Search by name...">
+
+    <select id="type">
+        <option value="">All Competitions</option>
+        <option value="academic">Academic</option>
+        <option value="non-academic">Non-Academic</option>
+    </select>
+
+    <select id="sort">
+        <option value="date">Sort by Date</option>
+        <option value="name">Sort by Name</option>
+    </select>
+
+    <button onclick="loadCompetitions()">Apply</button>
+</div>
+
+<div id="results"></div>
+
+<script src="app.js"></script>
+</body>
+</html>
