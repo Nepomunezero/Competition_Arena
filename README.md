@@ -1,6 +1,6 @@
 Course Explorer — Web App
 
-A small web application that fetches courses from an external API (Coursera) and lets users search, filter, and sort them.
+This is small web application that fetches courses from an external API (Coursera) and lets users search, filter, and sort them.
 
 Features
 
